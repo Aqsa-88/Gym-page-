@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+  }
+.nav{
+     background-color: #7795aa;
+}
+.imageLogo{
+    width: 70px;
+    height: 70px;
+}
+.navbar-nav li:hover{
+border-top:2px solid pink ;
+
+}
+.bigImg{
+    margin-left: 2%;
+}
+.detail{
+background-image: url(gym-intro.jpg);
+height: 40rem;
+background-repeat:no-repeat;
+margin-left: 2%;
+justify-content:center;
+}
+.title{
+    font-size: 40px;
+    font-weight: 700;
+}
+.weeks{
+    justify-content: right;
+    display: flex;
+    margin-right: 40px;
+}
+.weeks a{
+text-decoration: none;
+color:rgb(78, 78, 78);
+}
+.weeks a:hover{
+    color: rgb(102, 143, 167);
+}
+.detail .btn{
+    border-radius: 20px;
+    background: transparent;
+    backdrop-filter: brightness(0.5);
+    color: white;
+}
+.work{
+    color: white ;
+    width: 76rem;
+    text-align : center;
+    backdrop-filter: brightness(0.5)
+    
+    
+}
